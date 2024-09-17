@@ -26,7 +26,7 @@ serde_json = [ "dep:serde_json", "json-number/serde_json" ]
 all-features = true
 
 [dependencies]
-json-number = { version = "0.4.8", features = [ "smallnumberbuf" ] }
+json-number = { version = "0.4.8", features = [ "smallnumberbuf" ], git = "https://github.com/muttleyxd/json-number.git", rev = "a9295963d1359309ba1083e2f8ffd745444b0575" }
 smallvec = "1.9"
 smallstr = "0.3"
 locspan = "0.8.2"
